@@ -19,8 +19,8 @@ public class TestProperties {
 	OR.load(fn);
 	
 	
-	System.out.println(config.getProperty("browser"));;
-	System.out.println(config.getProperty("changes done by master branch"));;
+	System.out.println(config.getProperty("browser.."));;
+	
 	System.out.println(OR.getProperty("bankmanagerloginbtn"));;
 	}
 
