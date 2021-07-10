@@ -152,6 +152,7 @@ public static SoftAssert asrt=new SoftAssert();
 		}
 		log.debug("Clicking on an Element : "+locator);
 		//test.log(LogStatus.INFO, "Clicking on : " + locator);
+		System.out.println(config.getProperty("changes done by master branch"));;
 		
 	}
 	
