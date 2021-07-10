@@ -20,6 +20,10 @@ public class TestProperties {
 	
 	
 	System.out.println(config.getProperty("browser"));;
+	System.out.println(config.getProperty("testing1"));;
+	System.out.println(config.getProperty("testing2"));;
+	System.out.println(config.getProperty("testing3"));;
+	
 	System.out.println(OR.getProperty("bankmanagerloginbtn"));;
 	}
 
