@@ -18,11 +18,9 @@ public class TestProperties {
 	 fn=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\com\\w2a\\properties\\OR.properties");
 	OR.load(fn);
 	
-	
-	System.out.println(config.getProperty("browser"));;
-	System.out.println(config.getProperty("testing1"));;
-	System.out.println(config.getProperty("testing2"));;
-	
+
+	System.out.println(config.getProperty("browser.."));;
+
 	
 	System.out.println(OR.getProperty("bankmanagerloginbtn"));;
 	}
